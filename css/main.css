@@ -1508,7 +1508,109 @@ html{
 
 }
 
-/*================ BLOG ================*/
+/*================ BLOG =================*/
+
+.buscador-blog{
+
+    width:90%;
+
+    max-width:900px;
+
+    margin:60px auto;
+
+    text-align:center;
+
+}
+
+.buscador-blog input{
+
+    width:100%;
+
+    padding:16px;
+
+    border-radius:50px;
+
+    border:1px solid #ddd;
+
+    margin-top:20px;
+
+    font-size:16px;
+
+}
+
+.categorias{
+
+    width:90%;
+
+    margin:auto;
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:15px;
+
+}
+
+.categorias button{
+
+    background:#2E7D32;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 20px;
+
+    border-radius:30px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.categorias button:hover{
+
+    background:#1B5E20;
+
+}
+
+.articulo-destacado{
+
+    width:90%;
+
+    max-width:1100px;
+
+    margin:70px auto;
+
+    background:#2E7D32;
+
+    color:white;
+
+    padding:50px;
+
+    border-radius:15px;
+
+}
+
+.articulo-destacado span{
+
+    color:#FFD54F;
+
+    font-weight:bold;
+
+}
+
+.articulo-destacado h2{
+
+    color:white;
+
+    margin:20px 0;
+
+}
 
 .blog{
 
@@ -1526,7 +1628,7 @@ html{
 
     grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
 
-    gap:35px;
+    gap:30px;
 
 }
 
@@ -1534,9 +1636,9 @@ html{
 
     background:white;
 
-    border-radius:12px;
+    padding:30px;
 
-    overflow:hidden;
+    border-radius:15px;
 
     box-shadow:0 5px 15px rgba(0,0,0,.15);
 
@@ -1546,25 +1648,19 @@ html{
 
 .entrada-blog:hover{
 
-    transform:translateY(-8px);
+    transform:translateY(-10px);
 
 }
 
-.contenido-blog{
+.entrada-blog span{
 
-    padding:25px;
-
-}
-
-.contenido-blog span{
-
-    color:gray;
+    color:#888;
 
     font-size:.9rem;
 
 }
 
-.contenido-blog h3{
+.entrada-blog h3{
 
     margin:15px 0;
 
@@ -1572,31 +1668,73 @@ html{
 
 }
 
-.contenido-blog p{
+.entrada-blog p{
 
-    margin-bottom:20px;
-
-    color:#555;
+    margin-bottom:25px;
 
 }
 
-.contenido-blog button{
+.populares{
 
-    background:#2E7D32;
+    width:90%;
 
-    color:white;
+    max-width:700px;
 
-    border:none;
-
-    padding:12px 22px;
-
-    border-radius:8px;
+    margin:80px auto;
 
 }
 
-.contenido-blog button:hover{
+.populares ul{
 
-    background:#1B5E20;
+    list-style:none;
+
+}
+
+.populares li{
+
+    background:white;
+
+    margin:15px 0;
+
+    padding:18px;
+
+    border-radius:10px;
+
+    box-shadow:0 5px 10px rgba(0,0,0,.1);
+
+}
+
+.newsletter{
+
+    width:90%;
+
+    max-width:700px;
+
+    margin:90px auto;
+
+    text-align:center;
+
+    background:white;
+
+    padding:45px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+
+}
+
+.newsletter input{
+
+    width:100%;
+
+    padding:15px;
+
+    margin:25px 0;
+
+    border:1px solid #ddd;
+
+    border-radius:10px;
 
 }
 

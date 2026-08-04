@@ -1944,4 +1944,66 @@ html{
 
 }
 
+/*================ FAQ =================*/
+
+.faq{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:90px auto;
+
+}
+
+.faq-contenedor{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:25px;
+
+}
+
+.faq-item{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:12px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.12);
+
+    transition:.3s;
+
+    border-left:6px solid var(--color-principal);
+
+}
+
+.faq-item:hover{
+
+    transform:translateY(-6px);
+
+}
+
+.faq-item h3{
+
+    color:var(--color-principal);
+
+    margin-bottom:15px;
+
+    font-size:1.1rem;
+
+}
+
+.faq-item p{
+
+    color:#555;
+
+    line-height:1.7;
+
+}
+
 /* ================= FIN DEL ARCHIVO ================= */

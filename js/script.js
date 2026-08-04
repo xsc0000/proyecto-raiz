@@ -249,5 +249,21 @@ botonesEventos.forEach(boton => {
 });
 
 // ===============================
+// FAQ
+// ===============================
+
+const preguntas = document.querySelectorAll(".faq-item");
+
+preguntas.forEach(pregunta => {
+
+    pregunta.addEventListener("click", () => {
+
+        console.log("Pregunta seleccionada:", pregunta.querySelector("h3").textContent);
+
+    });
+
+});
+
+// ===============================
 // FIN DEL ARCHIVO
 // ===============================

@@ -1738,4 +1738,134 @@ html{
 
 }
 
+/*================ EVENTOS ================*/
+
+.eventos{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:80px auto;
+
+}
+
+.eventos-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+    gap:30px;
+
+}
+
+.evento{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+
+    transition:.3s;
+
+}
+
+.evento:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.evento h3{
+
+    color:#2E7D32;
+
+    margin-bottom:20px;
+
+}
+
+.evento p{
+
+    margin-bottom:12px;
+
+}
+
+.evento-btn{
+
+    margin-top:20px;
+
+    background:#2E7D32;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 22px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
+
+.evento-btn:hover{
+
+    background:#1B5E20;
+
+}
+
+/*================ CALENDARIO ================*/
+
+.calendario{
+
+    width:90%;
+
+    max-width:900px;
+
+    margin:70px auto;
+
+}
+
+.calendario table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+.calendario th{
+
+    background:#2E7D32;
+
+    color:white;
+
+    padding:15px;
+
+}
+
+.calendario td{
+
+    border:1px solid #ddd;
+
+    text-align:center;
+
+    padding:18px;
+
+}
+
+.evento-dia{
+
+    background:#81C784;
+
+    font-weight:bold;
+
+    color:white;
+
+}
+
 /* ================= FIN DEL ARCHIVO ================= */

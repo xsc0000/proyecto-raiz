@@ -213,5 +213,21 @@ window.addEventListener("load", () => {
 });
 
 // ===============================
+// EVENTOS
+// ===============================
+
+const botonesEventos = document.querySelectorAll(".evento-btn");
+
+botonesEventos.forEach(boton => {
+
+    boton.addEventListener("click", () => {
+
+        alert("Pronto podrás inscribirte a este evento desde la página web.");
+
+    });
+
+});
+
+// ===============================
 // FIN DEL ARCHIVO
 // ===============================

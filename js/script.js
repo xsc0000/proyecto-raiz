@@ -265,5 +265,21 @@ preguntas.forEach(pregunta => {
 });
 
 // ===============================
+// SERVICIOS
+// ===============================
+
+const tarjetasServicios = document.querySelectorAll(".servicio");
+
+tarjetasServicios.forEach(servicio => {
+
+    servicio.addEventListener("mouseenter", () => {
+
+        servicio.style.cursor = "pointer";
+
+    });
+
+});
+
+// ===============================
 // FIN DEL ARCHIVO
 // ===============================

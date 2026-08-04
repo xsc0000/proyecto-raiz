@@ -117,10 +117,30 @@ if (formulario) {
 
         }
 
-        alert("¡Mensaje enviado correctamente! Nos pondremos en contacto contigo muy pronto.");
+        const mensajeAnterior = document.querySelector(".mensaje-exito");
+
+        if (mensajeAnterior) {
+
+            mensajeAnterior.remove();
+        
+        }
+
+        const mensaje = document.createElement("div");
+
+        mensaje.classList.add("mensaje-exito");
+
+        mensaje.textContent =
+        "¡Gracias! Hemos recibido tu mensaje y responderemos lo antes posible.";
+
+        formulario.appendChild(mensaje);
 
         formulario.reset();
 
+        setTimeout(() => {
+
+            mensaje.remove();
+
+        }, 5000);
     });
 
 }

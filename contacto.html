@@ -153,7 +153,43 @@
                             required>
 
                     </div>
+                    
+                    <div class="campo">
 
+                        <label for="categoria">Categoría</label>
+                    
+                        <select id="categoria" name="categoria" required>
+                    
+                            <option value="">Seleccione una opción</option>
+                    
+                            <option>Consulta general</option>
+                    
+                            <option>Compra de libros</option>
+                    
+                            <option>Eventos</option>
+                    
+                            <option>Sugerencias</option>
+                    
+                        </select>
+                    
+                    </div>
+                    
+                    <div class="campo">
+                    
+                        <label for="prioridad">Prioridad</label>
+                    
+                        <select id="prioridad" name="prioridad">
+                    
+                            <option>Baja</option>
+                    
+                            <option>Media</option>
+                    
+                            <option>Alta</option>
+                    
+                        </select>
+                    
+                    </div>
+                    
                     <div class="campo">
 
                         <label for="mensaje">Mensaje</label>
@@ -165,6 +201,21 @@
                             placeholder="Escribe tu mensaje..."
                             required></textarea>
 
+                    </div>
+
+                    <div class="campo-check">
+
+                        <input
+                            type="checkbox"
+                            id="terminos"
+                            required>
+                    
+                        <label for="terminos">
+                    
+                            Acepto el tratamiento de datos personales.
+                    
+                        </label>
+                    
                     </div>
 
                     <button type="submit" class="btn">

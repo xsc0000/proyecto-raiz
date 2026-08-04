@@ -8,9 +8,9 @@
 
 :root{
 
-    --color-principal:#2E7D32;
-    --color-secundario:#81C784;
-    --color-acento:#FBC02D;
+    --color-principal:#651d98;
+    --color-secundario:#9a2cc2;
+    --color-acento:#cd4bb7;
     --color-fondo:#F5F5F5;
     --color-blanco:#FFFFFF;
     --color-texto:#333333;
@@ -260,7 +260,7 @@ header{
 
 .btn:hover{
 
-    background:#1B5E20;
+    background:#651d98;
 
     transform:translateY(-3px);
 
@@ -501,7 +501,7 @@ section h2{
 
 .banner-pagina{
 
-    background:linear-gradient(rgba(46,125,50,.85), rgba(46,125,50,.85)),
+    background:linear-gradient(rgba(91, 34, 142, 0.85), rgba(131, 65, 175, 0.85)),
     url("../imagenes/banner.jpg");
 
     background-size:cover;
@@ -654,7 +654,7 @@ footer{
 
 .copyright{
 
-    background:#1b5e20;
+    background:#651d98;
 
     text-align:center;
 
@@ -1113,7 +1113,7 @@ html{
 
 .formulario button:hover{
 
-    background:#1B5E20;
+    background:#651d98;
 
 }
 
@@ -1494,7 +1494,7 @@ html{
 
 ::-webkit-scrollbar-thumb:hover{
 
-    background:#1B5E20;
+    background:#651d98;
 
 }
 
@@ -1556,7 +1556,7 @@ html{
 
 .categorias button{
 
-    background:#2E7D32;
+    background:#651d98;
 
     color:white;
 
@@ -1574,7 +1574,7 @@ html{
 
 .categorias button:hover{
 
-    background:#1B5E20;
+    background:#651d98;
 
 }
 
@@ -1586,7 +1586,7 @@ html{
 
     margin:70px auto;
 
-    background:#2E7D32;
+    background:#651d98;
 
     color:white;
 
@@ -1598,7 +1598,7 @@ html{
 
 .articulo-destacado span{
 
-    color:#FFD54F;
+    color:#cd4bb7;
 
     font-weight:bold;
 
@@ -1664,7 +1664,7 @@ html{
 
     margin:15px 0;
 
-    color:#2E7D32;
+    color:#651d98;
 
 }
 
@@ -1782,7 +1782,7 @@ html{
 
 .evento h3{
 
-    color:#2E7D32;
+    color:#651d98;
 
     margin-bottom:20px;
 
@@ -1798,7 +1798,7 @@ html{
 
     margin-top:20px;
 
-    background:#2E7D32;
+    background:#651d98;
 
     color:white;
 
@@ -1814,7 +1814,7 @@ html{
 
 .evento-btn:hover{
 
-    background:#1B5E20;
+    background:#651d98;
 
 }
 
@@ -1840,7 +1840,7 @@ html{
 
 .calendario th{
 
-    background:#2E7D32;
+    background:#651d98;
 
     color:white;
 
@@ -1860,11 +1860,87 @@ html{
 
 .evento-dia{
 
-    background:#81C784;
+    background:#a160c3;
 
     font-weight:bold;
 
     color:white;
+
+}
+
+/*================ FORMULARIO MEJORADO ================*/
+
+.campo select{
+
+    width:100%;
+
+    padding:14px;
+
+    border:1px solid #ddd;
+
+    border-radius:8px;
+
+    font-size:16px;
+
+    background:white;
+
+}
+
+.campo-check{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    margin:20px 0;
+
+}
+
+.campo-check input{
+
+    width:18px;
+
+    height:18px;
+
+}
+
+.campo-check label{
+
+    font-size:.95rem;
+
+    color:#555;
+
+}
+
+/* Mensajes de validación */
+
+.mensaje-exito{
+
+    margin-top:20px;
+
+    padding:15px;
+
+    background:#d4edda;
+
+    color:#155724;
+
+    border-radius:8px;
+
+}
+
+.mensaje-error{
+
+    margin-top:20px;
+
+    padding:15px;
+
+    background:#f8d7da;
+
+    color:#721c24;
+
+    border-radius:8px;
 
 }
 
